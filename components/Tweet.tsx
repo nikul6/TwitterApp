@@ -11,7 +11,7 @@ type TweetProps = {
 
 export default function Tweet({ tweet }: TweetProps) {
     return (
-        <Link href={`/tweet/${tweet.id}`} asChild>
+        <Link href={`/feed/tweet/${tweet.id}`} asChild>
             <Pressable style={styles.container}>
                 <Image source={{ uri: tweet.user.image }} style={styles.userImage} />
                 <View style={styles.mainConatiner}>
