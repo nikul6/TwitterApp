@@ -31,7 +31,7 @@ npx expo start
 ## 🚀 UI
 Home             |  TweetDetails     |  NewTweet             |  Drawer     
 -------------------------|-------------------------|-------------------------|-------------------------
-![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/HomeUI.png)     |       ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/TweetDetails.png)      ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/NewTweet.png)     |       ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/Drawer.png)
+![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/HomeUI.png)     |       ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/TweetDetails.png)      |        ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/NewTweet.png)     |       ![alt text](https://github.com/nikul6/TwitterApp/blob/main/assets/AppImages/Drawer.png)
 
 
 ## 📝 Notes
