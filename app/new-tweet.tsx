@@ -21,26 +21,27 @@ export default function NewTweet() {
   }
 
   return (
-    <SafeAreaView style={{flex:1, backgroundColor:'#fff'}}>
-    <View style={styles.container}>
-      <View style={styles.buttonContainer}>
-        <Link href={'../'} style={{ fontSize: 18 }}>Abort</Link>
-        <Pressable onPress={onTweetPress} style={styles.button}>
-          <Text style={styles.buttonText}>Tweet</Text>
-        </Pressable>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+      <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold' }}>New Tweet</Text>
+      <View style={styles.container}>
+        <View style={styles.buttonContainer}>
+          <Link href={'../'} style={{ fontSize: 18 }}>Abort</Link>
+          <Pressable onPress={onTweetPress} style={styles.button}>
+            <Text style={styles.buttonText}>Tweet</Text>
+          </Pressable>
+        </View>
+        <View style={styles.inputContainer}>
+          <Image source={{ uri: user.image }} style={styles.image} />
+          <TextInput
+            placeholder="What's happing"
+            multiline
+            numberOfLines={5}
+            style={{ flex: 1 }}
+            value={text}
+            onChangeText={setText}
+          />
+        </View>
       </View>
-      <View style={styles.inputContainer}>
-        <Image source={{ uri: user.image }} style={styles.image} />
-        <TextInput
-          placeholder="What's happing"
-          multiline
-          numberOfLines={5}
-          style={{ flex: 1 }}
-          value={text}
-          onChangeText={setText}
-        />
-      </View>
-    </View>
     </SafeAreaView>
   )
 }
